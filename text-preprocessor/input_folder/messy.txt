@@ -1,0 +1,15 @@
+This is the first long messy paragraph. It contains URLs like https://example.com/test?a=1, random emojis 😀🔥, and inconsistent formatting. 
+Sometimes it has numbers 123 456 789 and weird punctuation!!!?? This paragraph is intentionally long to prepare for chunk-based text processing. 
+We want enough sentences so the chunker can split this correctly without breaking sentences in half. The goal is to simulate a real-world dataset.
+
+Here begins the second paragraph of messy text. It may include JSON-like fragments such as {user:"alice", id:123, note:"incomplete}. 
+Also logs: ERROR 500 Something bad happened; WARN Missing field 'username'. Another sentence continues here. 
+We add more sentences to make sure there is enough content for the tokenizer to work properly. This helps test overlap behavior.
+
+Third paragraph: HTML <div>Hello</div> <script>alert('x')</script>. 
+It also contains unicode: 北京, café, naïve, résumé. The purpose is to include multiple languages and structures. 
+We expand further with more sentences to simulate realistic long documents used for retrieval-augmented generation pipelines.
+
+Fourth paragraph: This text gets even more noisy $$$ *** ??? --- with symb0ls and misspellings. 
+It ensures the chunker script works under all messy conditions. Creating long body text makes chunking useful. 
+Another extra-long sentence is added here to increase token count and validate the upper bounds of chunk size thresholds for processing systems.

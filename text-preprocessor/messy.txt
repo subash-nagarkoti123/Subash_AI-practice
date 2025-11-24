@@ -1,0 +1,41 @@
+Hey!!! This   is   soooo   messy.... 😂😂
+
+Emails?? -> test@mail.com, another.user@domain.co.uk
+Phone: +977-9812345678, 123-4567 (???)
+
+Random URLs:
+ - https://example.com/test?query=hello#top
+ - www.fake-url..com
+ - http//broken-link
+
+Weird JSON-ish:
+{user:"sam", id:12??, roles:[admin,, user]}
+
+Logs:
+INFO 2025-10-10T10:22:11Z: Starting system.....
+ERROR!! (code=500): something BAD happened at /var/task/run@!#
+WARN:: Missing field   'username'
+
+HTML + JS:
+<div><p>Hello <b>World!</b></p></div><script>alert("xss?")</script>
+
+Text with emojis and unicode:
+Héllô wørld 🌏🔥 — 北京 — café — naïve
+
+Random chars: @@@ ### $$$ *** ??? --- ___ ~~~
+
+Broken sentences:
+This is, like, not... well formatted you know??  
+u coming 2moro? meeting @ 9?
+
+Numbers and money:
+$12.50, INR 4000, cost=??, 99.99%, 1,000,000
+
+Duplicates:
+hello hello hello     HELLO
+world   WORLD world
+
+Key-values:
+API_KEY = "12345-ABCDE-67890"
+DB_URL=mongodb+srv://user:pass@cluster0.abcd.mongodb.net/myDb?_
+
