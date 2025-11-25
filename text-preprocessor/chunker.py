@@ -2,9 +2,6 @@ import json
 import nltk
 from nltk.tokenize import sent_tokenize, word_tokenize
 
-# Ensure NLTK data is downloaded
-nltk.download("punkt", quiet=True)
-
 def chunk_text(
     text: str,
     min_tokens=50,

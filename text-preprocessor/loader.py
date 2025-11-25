@@ -1,8 +1,3 @@
-# loader.py
-# -----------------------------------------
-# Purpose: Load raw text from a file.
-# Usage: python3 loader.py
-# -----------------------------------------
 
 def load_text(file_path: str) -> str:
     """
