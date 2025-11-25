@@ -1,0 +1,5 @@
+Kubernetes is an open-source container orchestration system.
+Pods are the smallest deployable units in Kubernetes.
+Deployment manages ReplicaSets to scale pods.
+kubectl get pods -A
+If pod is in CrashLoopBackOff, check logs: kubectl logs <pod-name>
