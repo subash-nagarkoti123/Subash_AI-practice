@@ -1,10 +1,10 @@
 [
     {
         "id": 1,
-        "chunk": "know u coming 2moro meeting 9 numbers money 12 50 inr 4000 cost 99 99 1 000 000 duplicates hello"
+        "chunk": "helps test overlap behavior third paragraph html div hello div script alert x script also contains unicode caf na r"
     },
     {
         "id": 2,
-        "chunk": "world world key values api key 12345 abcde 67890 db url mongodb srv user pass cluster0 abcd mongodb net mydb"
+        "chunk": "text makes chunking useful another extra long sentence added increase token count validate upper bounds chunk size thresholds processing systems"
     }
 ]
